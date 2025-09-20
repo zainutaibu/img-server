@@ -32,3 +32,5 @@ const startServer = async () => {
 };
 
 startServer();
+console.log("Razorpay ID:", process.env.RAZORPAY_KEY_ID);
+console.log("Razorpay SECRET:", process.env.RAZORPAY_KEY_SECRET);
